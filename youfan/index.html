@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>有饭 | 一款白白的饭否客户端</title>
+		<style>
+			html {
+				color: #444444;
+				background-color: #F9F9F9;
+			}
+
+			body {
+				margin: 0;
+				font: 16px 'Roboto',sans-serif;
+				-webkit-text-size-adjust: none;
+				text-size-adjust: none;
+			}
+
+			a{
+				color: #666666;
+				text-decoration: none;
+			}
+
+			#logo{
+				width: 120px;
+				margin: auto;
+				margin-top: 60px;
+				display: block;
+			}
+
+			#app-title{
+				display: block;
+				margin: auto;
+				text-align: center;
+				font-size: 1.8em;
+        margin-top: 10px;
+        margin-bottom: 6px;
+			}
+
+			#app-desc{
+				text-align: center;
+				font-weight: 100;
+        margin: 0;
+			}
+
+			#app-desc a{
+				font-weight: 400;
+			}
+
+			#play-store{
+				display: block;
+				margin: 20px auto;
+				text-align: center;
+			}
+
+			#play-store img{
+				width: 160px;
+			}
+
+			#contacts{
+				font-weight: 400;
+				font-size: 0.9em;
+				list-style: none;
+				text-transform: uppercase;
+				padding: 0;
+				text-align: center;
+				margin: 10px auto;
+				overflow: auto;
+			}
+
+			#contacts li{
+				margin: 10px 4px;
+				display: inline-block;
+			}
+
+			div.screens {
+				display: block;
+				height: 430px;
+				text-align: center;
+				white-space: nowrap;
+				overflow: hidden;
+				background: #333;
+				
+			}
+			div.screens p {
+				margin: 10px 0;
+				height: 500px;
+				display: block;
+				max-width: 90%;
+				padding: 0 5%;
+				overflow: scroll;
+				overflow-y: hidden;
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
+			}
+
+			div.screens img {
+				height: 400px;
+				position: relative;
+				margin: 5px 5px;
+				border-radius: 1px;
+				box-shadow: rgba(0,0,0,0.75) 0px 0px 3px;
+			}
+
+			div.content{
+				max-width: 500px;
+				width: 80%;
+				margin: 30px auto;
+			}
+
+			.btn-info.inverse {
+				color: white;
+			    font-size: 14px;
+			    letter-spacing: 0.78px;
+			    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 2px rgba(0, 0, 0, 0.05);
+			    background: #59B9C6;
+			    border: 1px solid #63b4bf;
+			    padding: 15px 22px 15px 50px;
+			    position: relative;
+			    text-shadow: 0 1px 0 #44828a;
+			}
+
+			.download {
+			    margin-top: 10px;
+			    margin-bottom: 15px;
+			}
+
+			.btn.android {
+				font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+			    position: relative;
+			    display: inline-block;
+			    vertical-align: middle;
+			    overflow: hidden;
+			    cursor: pointer;
+			    transition: all 0.15s ease-in-out;
+				background-image: url(./assets/images/android.svg);
+    			background-repeat: no-repeat;
+    			background-position: 25px 14px;
+    			border-radius: 50px;
+			}
+
+			#footer{
+				text-align: center;
+				font-size: 0.8em;
+				font-weight: 100;
+			}
+
+			#footer a{
+				font-weight: 400;
+			}
+			.en-markup-crop-options {
+			    top: 18px !important;
+			    left: 50% !important;
+			    margin-left: -100px !important;
+			    width: 200px !important;
+			    border: 2px rgba(255,255,255,.38) solid !important;
+			    border-radius: 4px !important;
+			}
+
+			.en-markup-crop-options div div:first-of-type {
+			    margin-left: 0px !important;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<img id="logo" src="./assets/images/youfan_logo.png">
+		<p id="app-title">有饭</p>
+		<p id="app-desc">一款白白的饭否 Android 客户端</p>
+		<div id="play-store">
+			<a class="btn btn-info btn-radius inverse download android" target="_blank" href="https://www.coolapk.com/apk/170292">下载 Android 版本</a>
+		</div>
+
+		<div class="screens">
+			<p>
+				<img src="./assets/images/screen_home.png">
+				<img src="./assets/images/screen_user.png">
+				<img src="./assets/images/screen_write.png">
+				<img src="./assets/images/screen_detail.png">
+				<img src="./assets/images/screen_self.png">
+			</p>
+		</div>
+		<div class="content"></div>
+		<p id="footer">Brought to you by <a target="_blank" href="http://ycz.im/">tinyao</a> with ❤ 　|　<a href="mailto:cz.tinyao@gmail.com">Contact me</a></p>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111165364-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-111165364-1');
+		</script>
+	</body>
+</html>
