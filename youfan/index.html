@@ -110,7 +110,7 @@
 			}
 
 			.btn-info.inverse {
-				color: white;
+					color: white;
 			    font-size: 14px;
 			    letter-spacing: 0.78px;
 			    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -127,23 +127,32 @@
 			}
 
 			.btn.android {
-				font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+					font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
 			    position: relative;
 			    display: inline-block;
 			    vertical-align: middle;
 			    overflow: hidden;
 			    cursor: pointer;
 			    transition: all 0.15s ease-in-out;
-				background-image: url(http://7xj05n.com1.z0.glb.clouddn.com/app/youfan/assets/android.svg);
+					background-image: url(https://zico.oss-cn-beijing.aliyuncs.com/youfan/android.svg);
     			background-repeat: no-repeat;
     			background-position: 25px 14px;
     			border-radius: 50px;
+			}
+
+			.btn-info.inverse:hover {
+				background: #69acb5;
+				border-color: #69acb5;
+				background-image: url(https://zico.oss-cn-beijing.aliyuncs.com/youfan/android.svg);
+				background-repeat: no-repeat;
+    		background-position: 25px 14px;
 			}
 
 			#footer{
 				text-align: center;
 				font-size: 0.8em;
 				font-weight: 100;
+				padding: 1em 0;
 			}
 
 			#footer a{
@@ -165,24 +174,23 @@
 	</head>
 	<body>
 		
-		<img id="logo" src="http://7xj05n.com1.z0.glb.clouddn.com/app/youfan/assets/youfan_logo.png">
+		<img id="logo" src="https://zico.oss-cn-beijing.aliyuncs.com/youfan/youfan_logo.png">
 		<p id="app-title">有饭</p>
 		<p id="app-desc">一款白白的饭否 Android 客户端</p>
 		<div id="play-store">
-			<a class="btn btn-info btn-radius inverse download android" target="_blank" href="https://www.coolapk.com/apk/170292">下载 Android 版本</a>
+			<a class="btn btn-info btn-radius inverse download android" href="https://zico.oss-cn-beijing.aliyuncs.com/youfan/youfan-1.1.7-release.apk">下载 Android 版本</a>
 		</div>
 
 		<div class="screens">
 			<p>
-				<img src="http://7xj05n.com1.z0.glb.clouddn.com/app/youfan/assets/screen_home.png">
-				<img src="http://7xj05n.com1.z0.glb.clouddn.com/app/youfan/assets/screen_user.png">
-				<img src="http://7xj05n.com1.z0.glb.clouddn.com/app/youfan/assets/screen_write.png">
-				<img src="http://7xj05n.com1.z0.glb.clouddn.com/app/youfan/assets/screen_detail.png">
-				<img src="http://7xj05n.com1.z0.glb.clouddn.com/app/youfan/assets/screen_self.png">
+				<img src="https://zico.oss-cn-beijing.aliyuncs.com/youfan/screen_home.png">
+				<img src="https://zico.oss-cn-beijing.aliyuncs.com/youfan/screen_user.png">
+				<img src="https://zico.oss-cn-beijing.aliyuncs.com/youfan/screen_write.png">
+				<img src="https://zico.oss-cn-beijing.aliyuncs.com/youfan/screen_detail.png">
+				<img src="https://zico.oss-cn-beijing.aliyuncs.com/youfan/screen_self.png">
 			</p>
 		</div>
-		<div class="content"></div>
-		<p id="footer">Brought to you by <a target="_blank" href="http://ycz.im/">tinyao</a> with ❤ 　|　<a href="mailto:cz.tinyao@gmail.com">Contact me</a></p>
+		<p id="footer">Brought to you by <a target="_blank" href="http://ycz.im/">tinyao</a> with ❤ 　|　<a href="mailto:cz.tinyao@gmail.com">Contact me</a> 　|　<a href="privacy-policy.html">Privacy Policy</a></p>
 		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111165364-1"></script>
